@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<flow name="repo-sample-pocFlow" doc:id="5e9998a5-2762-4fb6-8bab-845b710d2e56" >
+		<http:listener doc:name="Listener" doc:id="131d98b0-0e8d-46dc-b4ed-8061aa98da6a" />
+		<logger level="INFO" doc:name="Logger" doc:id="1df216d5-f187-48ad-a8ab-5229d6070599" />
+	</flow>
+</mule>
